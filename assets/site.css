@@ -727,6 +727,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.table-wrap:focus-visible {
+  outline-offset: 2px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

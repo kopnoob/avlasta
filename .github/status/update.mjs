@@ -144,7 +144,7 @@ function render(lang) {
     <h2>${t.daysH}</h2>
     <div class="bars" role="img" aria-label="${t.barsLabel}">${bars}</div>
     <div class="bars-legend" aria-hidden="true"><span>${DAYS_SHOWN} ${lang === "en" ? "days ago" : "dager siden"}</span><span>${t.today}</span></div>
-    <div class="table-wrap"><table><caption>${t.tableCap}</caption><thead><tr>${t.th.map((h, i) => `<th scope="col"${i ? ' class="num"' : ""}>${h}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="table-wrap" role="region" tabindex="0" aria-label="${t.tableCap}"><table><caption>${t.tableCap}</caption><thead><tr>${t.th.map((h, i) => `<th scope="col"${i ? ' class="num"' : ""}>${h}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
 `;
 }
 
