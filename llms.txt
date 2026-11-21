@@ -1,0 +1,12 @@
+# Avlasta
+
+> Norsk servicedesk (ITSM) for kommuner og IKT-samarbeid, under bygging. Leveres av Commit AS (org.nr. 934 427 688). Åpen demo med oppdiktede data: https://avlasta-demo.netlify.app
+
+## Viktigste sider
+
+- [Slik virker det](https://kopnoob.github.io/avlasta/slik-virker-det/): hva som finnes i demoen nå, og hva som kommer
+- [Priser](https://kopnoob.github.io/avlasta/priser/): plattformpris etter antall brukere pluss 590 kr per saksbehandler per måned, eks. mva. Pilot til 50 prosent i 12 måneder
+- [For kommuner](https://kopnoob.github.io/avlasta/kommune/)
+- [Sikkerhet og personvern](https://kopnoob.github.io/avlasta/sikkerhet/)
+- [Status for demoen](https://kopnoob.github.io/avlasta/status/)
+- [Kontakt](https://kopnoob.github.io/avlasta/kontakt/): Øystein Kopstad, kopstad@commit.no

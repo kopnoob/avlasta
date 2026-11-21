@@ -1,0 +1,5 @@
+{
+  "healthUrl": "https://avlasta-demo.netlify.app/api/health",
+  "siteUrl": "https://kopnoob.github.io/avlasta",
+  "intervalMinutes": 15
+}
