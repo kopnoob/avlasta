@@ -53,7 +53,7 @@
 <section class="section">
   <div class="wrap prose">
     <h2>About this page</h2>
-    <ul><li>A scheduled job at GitHub calls the demo's health check about every 15 minutes. GitHub may delay or skip runs when busy, so the gap can be longer.</li><li>The demo counts as up when the health check replies within 20 seconds and reports that both the app and the database work. Response time includes start-up when the demo has been idle.</li><li>The status page is hosted by GitHub and the demo by Netlify, so this page works when the demo is down. Both are US services, so this is not yet an independent measurement.</li><li>We only store the time, whether the check passed, and the response time. The data is in an open file.</li></ul>
+    <ul><li>A scheduled job at GitHub is set to call the demo's health check every 15 minutes, but GitHub runs it far less often. In practice there are only a few checks a day, so this page shows samples rather than continuous monitoring. The number of checks is shown above.</li><li>The demo counts as up when the health check replies within 20 seconds and reports that both the app and the database work. Response time includes start-up when the demo has been idle.</li><li>The status page is hosted by GitHub and the demo by Netlify, so this page works when the demo is down. Both are US services, so this is not yet an independent measurement.</li><li>We only store the time, whether the check passed, and the response time. The data is in an open file.</li></ul>
     <p>Seeing errors in the demo that do not show here? Email <a href="mailto:kopstad@commit.no">kopstad@commit.no</a>. The checks are available as <a href="../../status/data.json">JSON</a>.</p>
   </div>
 </section>
